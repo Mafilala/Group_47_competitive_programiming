@@ -1,0 +1,6 @@
+input()
+en_l = input().split()
+input()
+fr_l = input().split()
+at_one = set(en_l).union(fr_l)
+print(len(at_one))
