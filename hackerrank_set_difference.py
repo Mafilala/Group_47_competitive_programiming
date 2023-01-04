@@ -1,0 +1,6 @@
+e_n = int(input())
+e_list = input().split()
+f_n = int(input())
+f_list = input().split()
+only_e = set(e_list).difference(f_list)
+print(len(only_e))
